@@ -6,15 +6,15 @@ SELECT title, last_name, first_name
 FROM employee
 ORDER BY levels DESC
 LIMIT 1
-
+ 
 
 /* Q2: Which countries have the most Invoices? */
 
 SELECT COUNT(*) AS c, billing_country 
 FROM invoice
 GROUP BY billing_country
-ORDER BY c DESC
-
+ORDER BY c Desc
+ 
 
 /* Q3: What are top 3 values of total invoice? */
 
@@ -225,6 +225,6 @@ WHERE cc.total_spending = ms.max_spending
 ORDER BY 1;
 
 
-/* source: www.youtube.com/@RishabhMishraOfficial */
 
 /* Thank You :) */
+
